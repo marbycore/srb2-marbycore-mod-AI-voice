@@ -1,0 +1,65 @@
+# --- BUILD ARTIFACTS ---
+/bin/
+/objs/
+/release/
+/build/
+# Ignore root binaries and intermediate files
+/*.exe
+/*.dll
+/*.pdb
+/*.lib
+/*.exp
+/*.ilk
+/*.suo
+/*.user
+
+# Allow specific necessary libraries even if they have binary extensions
+!/libs/**/*.lib
+!/libs/**/*.dll
+!/libs/**/*.a
+!/mod/**/*.dll
+!/mod/**/*.lib
+
+# --- CONFIGURATION (Private Settings) ---
+*_settings.json
+prompt_profiles.json
+mission_profiles.json
+*.key
+*.token
+
+# --- ASSETS (Heavy / Copyrighted) ---
+# audio_samples/ should exist but tails.wav is excluded
+audio_samples/tails.wav
+# Piper models (externalize for repo size)
+piper/
+piper_voices/
+
+# --- LOGS & TEMPORARY FILES ---
+logs/
+*.log
+*.txt
+latest-log.txt
+temp_audio.wav
+temp_voice.wav
+
+# --- DEVELOPMENT / SCRIPTS ---
+*.py
+*.ps1
+*.sh
+tools/
+scripts/
+deployer/
+.vscode/
+.antigravity/
+.agent/
+.github/ # (Except what you define manually)
+
+# --- REPO REPORTS ---
+*.md
+!README.md
+!LICENSE
+
+# --- GAME ASSETS (NEVER REDISTRIBUTE) ---
+*.pk3
+*.wad
+

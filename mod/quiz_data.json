@@ -1,0 +1,7 @@
+﻿[
+  { "question": "What kind of animal is Sonic?", "reward": "Rings", "answers": ["erizo", "hedgehog", "herizo", "eriso"] },
+  { "question": "What is the name of Sonic's best friend?", "reward": "Rings", "answers": ["Tails", "tail", "tayls", "teils"] },
+  { "question": "What is the name of the main villain?", "reward": "Gargoyle", "answers": ["Eggman", "Robotnik", "egman", "robotnic"] },
+  { "question": "What kind of animal is Knuckles?", "reward": "Rings", "answers": ["echidna", "equidna", "equina", "ekidna"] },
+  { "question": "What is Sonic's favorite food?", "reward": "Rings", "answers": ["chili", "chili dog", "chilidog", "chilis"] }
+]

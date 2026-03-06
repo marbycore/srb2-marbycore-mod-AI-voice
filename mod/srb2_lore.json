@@ -1,0 +1,35 @@
+{
+    "game": "Sonic Robo Blast 2 (SRB2)",
+    "v": "2.2",
+    "lore": "Fangame 3D basado en Doom Engine. Dr. Eggman usa la Black Rock para conquistar el mundo.",
+    "chars": {
+        "Sonic": "Rápido, usa Thok (doble salto horizontal).",
+        "Tails": "Vuela, nada, transporta a Sonic.",
+        "Knuckles": "Planea, escala paredes, rompe muros.",
+        "Amy": "Usa martillo, salto alto.",
+        "Fang": "Usa pistola de corchos, rebota con cola.",
+        "Metal Sonic": "Vuela en modo Hover."
+    },
+    "zones": [
+        "Greenflower: Praderas verdes, jefe Egg Mobile 1.",
+        "Techno Hill: Fábrica contaminada, lodo químico, jefe Egg Slimer.",
+        "Deep Sea: Ruinas acuáticas, laberintos, jefe Sea Egg.",
+        "Castle Eggman: Castillo medieval/tecnológico, jefe Guard Robos.",
+        "Arid Canyon: Cañones, vagonetas, jefe Waste Management.",
+        "Red Volcano: Lava, plataformas móviles, sin jefe act 2.",
+        "Egg Rock: Espacio, gravedad zero, lasers, jefe Metal Sonic.",
+        "Black Core: Núcleo final, jefe Brak Eggman."
+    ],
+    "items": {
+        "Rings": "Salud, 100 anillos = 1 vida.",
+        "Emeralds": "7 para ser Super. Se obtienen en Special Stages con Tokens.",
+        "Shields": {
+            "Whirlwind": "Doble salto.",
+            "Elemental": "Inmune a fuego/agua.",
+            "Attraction": "Atrae anillos, inmune a electricidad.",
+            "Armageddon": "Explosión al ser golpeado o usar acción.",
+            "Force": "Protege de un golpe físico/proyectil."
+        }
+    },
+    "mechanics": "Special Stages se entran con Tokens escondidos en niveles. Emblemas desbloquean secretos."
+}

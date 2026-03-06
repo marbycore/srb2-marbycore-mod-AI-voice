@@ -1,0 +1,14 @@
+[
+  {
+    "provider": "Whisper Local",
+    "base_url": "http://127.0.0.1:8000/transcribe",
+    "api_key": "YOUR_API_KEY_HERE",
+    "model": "whisper-large-v3"
+  },
+  {
+    "provider": "Groq",
+    "base_url": "https://api.groq.com/openai/v1/audio/transcriptions",
+    "api_key": "YOUR_API_KEY_HERE",
+    "model": "whisper-large-v3"
+  }
+]

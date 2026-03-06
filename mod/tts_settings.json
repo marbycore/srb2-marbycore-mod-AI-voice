@@ -1,0 +1,20 @@
+[
+    {
+        "provider": "Local",
+        "base_url": "http://127.0.0.1:5000",
+        "api_key": "YOUR_API_KEY_HERE",
+        "model": "coqui/XTTS-v2"
+    },
+    {
+        "provider": "HuggingFace",
+        "base_url": "https://api-inference.huggingface.co/models/coqui/XTTS-v2",
+        "api_key": "YOUR_API_KEY_HERE",
+        "model": "coqui/XTTS-v2"
+    },
+    {
+        "provider": "Piper",
+        "base_url": "cli",
+        "api_key": "",
+        "model": "mod/piper_voices/en_US-lessac-medium.onnx"
+    }
+]
