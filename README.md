@@ -67,8 +67,8 @@ This mod is optimized for the following setup:
 
 ### Low-End / No GPU Setup (Cloud AI / CPU)
 If your PC isn't powerful enough to run the local AI models or the Coqui XTTS v2 generator, you can use these alternatives:
-1.  **OpenRouter**: Select `OpenRouter` in the Dashboard and paste your API key in `mod/ai_provider_settings.json`.
-2.  **Groq (STT)**: Select `Groq` in the Mic Manager for lighting-fast free voice recognition.
+1.  **OpenRouter (LLM)**: If you cannot run LM Studio locally with a downloaded model, select `OpenRouter` in the Dashboard and paste your API key in `mod/ai_provider_settings.json` to use cloud-based AI models.
+2.  **Groq (STT)**: If you cannot run local Whisper for voice recognition (which requires a good GPU), select `Groq` in the Mic Manager and provide your API key for lightning-fast, high-quality cloud voice recognition without needing the local Whisper API.
 3.  **Piper (TTS)**: Select `Piper` in the Voice Manager for lightweight offline voice synthesis. This is the recommended alternative to Coqui XTTS v2 if you do not have a powerful GPU.
 
 ---
