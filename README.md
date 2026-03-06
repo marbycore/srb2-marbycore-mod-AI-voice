@@ -63,12 +63,13 @@ This mod is optimized for the following setup:
   - Context Window: **40960**
   - GPU Offload: **MAX (36 layers)**
 - **Hardware**: Tested on **RTX 30 series / 40 series** (8GB+ VRAM recommended).
+- **TTS Engine**: **[Coqui TTS XTTS v2](https://github.com/marbycore/XTTS-v2_audio_generator_marbycore_cuda12_F16_Blackwell)**. To generate high-quality audio locally, download this supplementary API and leave it running in the background. *(Note: If you do not have a powerful GPU, you can use Piper instead, which runs on your CPU).*
 
-### Low-End / No GPU Setup (Cloud AI)
-If your PC isn't powerful enough, you can use cloud services:
+### Low-End / No GPU Setup (Cloud AI / CPU)
+If your PC isn't powerful enough to run the local AI models or the Coqui XTTS v2 generator, you can use these alternatives:
 1.  **OpenRouter**: Select `OpenRouter` in the Dashboard and paste your API key in `mod/ai_provider_settings.json`.
 2.  **Groq (STT)**: Select `Groq` in the Mic Manager for lighting-fast free voice recognition.
-3.  **Piper (TTS)**: Select `Piper` in the Voice Manager for lightweight offline voice synthesis that runs on your CPU.
+3.  **Piper (TTS)**: Select `Piper` in the Voice Manager for lightweight offline voice synthesis. This is the recommended alternative to Coqui XTTS v2 if you do not have a powerful GPU.
 
 ---
 
