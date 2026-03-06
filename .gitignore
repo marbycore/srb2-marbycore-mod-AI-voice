@@ -20,10 +20,10 @@
 !/mod/**/*.dll
 !/mod/**/*.lib
 
-# --- CONFIGURATION (Private Settings) ---
-*_settings.json
-prompt_profiles.json
-mission_profiles.json
+# --- CONFIGURATION (Settings & Profiles) ---
+!/mod/*_settings.json
+!/mod/prompt_profiles.json
+!/mod/mission_profiles.json
 *.key
 *.token
 

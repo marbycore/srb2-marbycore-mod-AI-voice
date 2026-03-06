@@ -62,7 +62,7 @@ This mod is optimized for the following setup:
   - KV Caching: **Q4_0**
   - Context Window: **40960**
   - GPU Offload: **MAX (36 layers)**
-- **Hardware**: Tested on **RTX 30 series / 40 series** (8GB+ VRAM recommended).
+- **Hardware**: Tested on **RTX 5080** (16GB VRAM recommended for MAX offload).
 - **TTS Engine**: **[Coqui TTS XTTS v2](https://github.com/marbycore/XTTS-v2_audio_generator_marbycore_cuda12_F16_Blackwell)**. To generate high-quality audio locally, download this supplementary API and leave it running in the background. *(Note: If you do not have a powerful GPU, you can use Piper instead, which runs on your CPU).*
 
 ### Low-End / No GPU Setup (Cloud AI / CPU)
